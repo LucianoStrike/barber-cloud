@@ -20,8 +20,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Americano</h3>
                     <div className="portfolio__item-cta">
-                        <a href="https://github.com/" className='btn' target='_blank'>GitHub</a>
-                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Live Youtube</a>
+                        <a href="#contact" className='btn' target='_blank'>Agendar</a>
+                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Youtube</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -30,8 +30,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Zuca</h3>
                     <div className="portfolio__item-cta">
-                        <a href="https://github.com/" className='btn' target='_blank'>GitHub</a>
-                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Live Youtube</a>
+                        <a href="#contact" className='btn' target='_blank'>Agendar</a>
+                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Youtube</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -40,8 +40,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Sul Africano</h3>
                     <div className="portfolio__item-cta">
-                        <a href="https://github.com/" className='btn' target='_blank'>GitHub</a>
-                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Live Youtube</a>
+                        <a href="#contact" className='btn' target='_blank'>Agendar</a>
+                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Youtube</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -50,8 +50,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Angolano</h3>
                     <div className="portfolio__item-cta">
-                        <a href="https://github.com/" className='btn' target='_blank'>GitHub</a>
-                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Live Youtube</a>
+                        <a href="#contact/" className='btn' target='_blank'>Agendar</a>
+                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Youtube</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -60,8 +60,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Ingles</h3>
                     <div className="portfolio__item-cta">
-                        <a href="https://github.com/" className='btn' target='_blank'>GitHub</a>
-                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Live Youtube</a>
+                        <a href="#contact" className='btn' target='_blank'>Agendar</a>
+                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Youtube</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -70,8 +70,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Frances</h3>
                     <div className="portfolio__item-cta">
-                        <a href="https://github.com/" className='btn' target='_blank'>GitHub</a>
-                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Live Youtube</a>
+                        <a href="#contact" className='btn' target='_blank'>Agendar</a>
+                        <a href="https://youtu.be/InNlaxPi8Xg" className='btn btn-primary' target='_blank'>Youtube</a>
                     </div>
                 </article>
             </div>
@@ -79,4 +79,6 @@ const Portfolio = () => {
     )
 }
 
+
+{/*mudanca */}
 export default Portfolio
