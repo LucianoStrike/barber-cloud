@@ -3,8 +3,25 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        {/*ESTES SÃO OS DADOS DA MINHA API : idserviço , id template, id do perfil */}
+        emailjs.sendForm('service_55zlh6s', 'template_mkyg7kd', form.current, 'amFjXLhtoauEjxdBy')
+
+        e.target.reset()
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+    
     return (
         <section id='contact'>
             <h5>Fique Atualizado</h5>
@@ -33,7 +50,7 @@ const Contact = () => {
                 </div>
                 {/*fim das opcoes de contacto */}
                 
-                <form action="" method="post">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Seu nome completo' required />
                     <input type="email" name='email' placeholder='Seu email' required />
                     <textarea name="message" rows="7" placeholder='Sua mensagem' required></textarea>
